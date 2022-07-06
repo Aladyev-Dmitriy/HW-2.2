@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        int balance = 2000;
+        int balance = 5000;
         int refill = 17000;
         int bonusCost = 1;
         int bonus;
 
         if (refill > 1000) {
-            bonus = 1 * refill / 100;
+            bonus = bonusCost * (refill / 100);
         } else {
             bonus = 0;
         }
